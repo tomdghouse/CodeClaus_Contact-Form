@@ -1,0 +1,76 @@
+html,body {
+    height: 100%;
+    background-color: #eec0c6, #7ee8fa;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    } 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+    width: 400px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  /* CAPTCHA styling */
+  .captcha-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .captcha-img {
+    margin-right: 10px;
+  }
+  .captcha-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button[type="reset"] {
+    background: linear-gradient(to bottom, #f9f9f9, #e3e3e3);
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background 0.3s ease-in-out;
+  }
+  
+  button[type="reset"]:hover {
+    background: linear-gradient(to bottom, #e3e3e3, #f9f9f9);
+  }
+  
